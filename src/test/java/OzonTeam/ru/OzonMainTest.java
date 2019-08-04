@@ -46,7 +46,7 @@ public class OzonMainTest extends RestUtil {
 
         Response response = given().when()
                 .contentType("multipart/form-data")
-                .multiPart("userName", "аа")
+                .multiPart("userName", "арпра")
                 .multiPart("password", "рмгааср")
                 .multiPart("grant_type", "password")
                 .multiPart("client_id", "web")
